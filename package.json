@@ -1,0 +1,24 @@
+{
+  "name": "Next-Level-Week-3.0-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegorhcp89/Next-Level-Week-3.0-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegorhcp89/Next-Level-Week-3.0-Project/issues"
+  },
+  "homepage": "https://github.com/diegorhcp89/Next-Level-Week-3.0-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
