@@ -19,6 +19,7 @@
   "homepage": "https://github.com/diegorhcp89/Next-Level-Week-3.0-Project#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "hbs": "^4.1.1",
     "nodemon": "^2.0.6"
   }
 }
