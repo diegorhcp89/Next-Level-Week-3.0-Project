@@ -1,9 +1,9 @@
 const Database = require('./db');
-const savaOrphanage = require('./savaOrphanage')
+const saveOrphanage = require('./saveOrphanage')
 
 Database.then(async db => {
     // inserir dados na tabela
-    await savaOrphanage(db,{
+    await saveOrphanage(db,{
         lat: "-23.687977",
         lng: "-46.6829917",
         name: "Lar dos Meninos", 

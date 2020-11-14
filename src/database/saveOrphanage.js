@@ -1,4 +1,4 @@
-function savaOrphanage(db, orphanage) {
+function saveOrphanage(db, orphanage) {
   return db.run(`
         INSERT INTO orphanages (
             lat,
@@ -24,4 +24,4 @@ function savaOrphanage(db, orphanage) {
     `);
 }
 
-module.exports = savaOrphanage;
+module.exports = saveOrphanage;

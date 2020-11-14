@@ -67,13 +67,20 @@ function toggleSelect(event) {
   document.querySelectorAll(".button-select button").forEach((button) => {
     button.classList.remove("active");
   });
-  
-  const button = event.currentTarget
-  button.classList.add('active')
+
+  const button = event.currentTarget;
+  button.classList.add("active");
 
   //atualizar o meu input hidden com o valor selecionando
-  const input = document.querySelector('[name="open_on_weekends"]')
+  const input = document.querySelector('[name="open_on_weekends"]');
 
-  input.value = button.dataset.value
+  input.value = button.dataset.value;
+}
 
+function validate(event) {
+  const needsLatAndLng = false;
+  if (needsLatAndLng) {
+    event.preventDefault();
+    alert("Selecione um ponto no mapa");
+  }
 }
